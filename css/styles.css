@@ -1,0 +1,173 @@
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+p{
+  color:#8f8f8f;
+}
+
+/* Heading */
+
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-headin{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Section */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Title */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.title-image {
+width: 30%;
+transform: rotate(25deg);
+position: absolute;
+}
+
+/* .img-div
+{
+  position: relative;
+} */
+
+/* Features */
+#features {
+  margin: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.features-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.features-p {
+  color: #8f8f8f;
+}
+
+.feature-box {
+
+  padding: 5%;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+/* Testimonials */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing */
+#pricing{
+  padding: 100px;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+@media (max-width: 1028px){
+  .title-image{
+    position:static;
+    transform: rotate(0);
+  }
+  #title{
+      text-align: center;
+  }
+}
+
+
+.footer-p{
+  color: rgba(0,0,0,.25);
+}
+.fot{
+  margin: 20px 10px;
+}
