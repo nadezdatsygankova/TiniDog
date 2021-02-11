@@ -1,1 +1,1 @@
-Git is awesome!
+It is a landing page
